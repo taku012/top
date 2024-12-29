@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff; /* Changed to white for a brighter look */
     color: #333;
 }
 
@@ -10,14 +10,14 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #f9f9f9; /* Lighter background for container */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
     text-align: center;
     margin-bottom: 20px;
-    background-color: #6c757d;
+    background-color: #007bff; /* Brighter blue for header */
     color: #fff;
     padding: 15px 0;
 }
@@ -32,7 +32,7 @@ main {
 }
 
 h2 {
-    border-bottom: 2px solid #6c757d;
+    border-bottom: 2px solid #007bff; /* Matching the header color */
     padding-bottom: 5px;
 }
 
@@ -44,9 +44,17 @@ ul {
 ul li {
     margin: 10px 0;
 }
+
+footer {
+    text-align: center; /* Centered footer text */
+    background-color: #007bff; /* Brighter blue for footer */
+    padding: 10px 0;
+}
+
 footer a {
-    color: #fff; /* 白色に変更 */
+    color: #ffeb3b; /* Bright yellow for footer link */
     text-decoration: none;
+    font-weight: bold; /* Bold for emphasis */
 }
 
 a {
