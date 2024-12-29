@@ -1,3 +1,4 @@
+/* 背景画像を設定 */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -10,16 +11,16 @@ body {
     height: 100vh;
     text-align: center;
     background-image: url('https://nijicollage.xyz/wp-content/uploads/hotel-2.jpg'); /* 画像URLを指定 */
-    background-size: cover; /* 画像が画面全体をカバーするようにする */
-    background-position: center; /* 画像を中央に配置 */
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
-    max-width: 500px;
-    background-color: rgba(255, 255, 255, 0.9); /* 背景を少し透過させて目立たせる */
-    padding: 40px;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.9); /* 背景を透過させて目立たせる */
+    padding: 30px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    border-radius: 10px; /* 角を丸くする */
+    border-radius: 10px;
     text-align: center;
 }
 
@@ -33,20 +34,14 @@ h1 {
     font-weight: bold;
 }
 
-h2 {
-    font-size: 1.5em;
-    color: #333;
-    margin-bottom: 20px;
-}
-
 p {
-    font-size: 1.1em;
-    color: #555;
+    font-size: 1.3em;
+    color: #333;
     margin-bottom: 30px;
 }
 
 button {
-    background-color: #d9534f; /* 赤色で目立つボタン */
+    background-color: #d9534f; /* 赤色のボタン */
     color: #fff;
     border: none;
     padding: 15px 30px;
@@ -55,6 +50,8 @@ button {
     cursor: pointer;
     border-radius: 8px;
     transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 300px;
 }
 
 button:hover {
@@ -73,4 +70,9 @@ footer {
 
 footer a {
     color: #007bff;
-    text-decorat
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
