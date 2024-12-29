@@ -9,9 +9,9 @@ body {
     align-items: center;
     height: 100vh;
     text-align: center;
-    background-image: url('your-background-image.jpg'); /* 背景画像を追加する場合 */
-    background-size: cover;
-    background-position: center;
+    background-image: url('https://www.melonbooks.co.jp/detail/detail.php?product_id=965187'); /* 画像URLを指定 */
+    background-size: cover; /* 画像が画面全体をカバーするようにする */
+    background-position: center; /* 画像を中央に配置 */
 }
 
 .container {
@@ -73,9 +73,4 @@ footer {
 
 footer a {
     color: #007bff;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
+    text-decorat
